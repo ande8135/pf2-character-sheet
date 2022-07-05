@@ -1,0 +1,21 @@
+{
+  "name": "pf2-character-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "predev": "cd client && start cmd /c npm start",
+    "dev": "electron main.js dev",
+    "build": "electron build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.7"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
